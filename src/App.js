@@ -1,23 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState,useEffect} from "react";
+import "./App.css";
 
 function App() {
+
+  const [navbar, setNavbar] = useState(false);
+  
+  const changeNavColor = () => {
+    if(window.scrollY >= 80 * (window.innerHeight/100)){
+      setNavbar(true);
+    }
+    else{
+      setNavbar(false);
+    }
+  }
+
+  window.addEventListener('scroll', changeNavColor);
+
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className={navbar ? "header sticky" : "header"}>
+        <a className="logo">Logo</a>
+        <ul>
+          <li>
+            <a>Home</a>
+          </li>
+          <li>
+            <a>About</a>
+          </li>
+          <li>
+            <a>Services</a>
+          </li>
+          <li>
+            <a>Portfolio</a>
+          </li>
+          <li>
+            <a>Team</a>
+          </li>
+        </ul>
+      </div>
+      <div className="banner"></div>
     </div>
   );
 }
