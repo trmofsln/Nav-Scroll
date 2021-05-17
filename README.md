@@ -1,6 +1,9 @@
 # Nav-Scroll
 Trying and testing sticky Navbars which changes design while scrolling on landing page
 
+ [comment]: <> (### Take a Look: 😅)
+ <!-- (![pro record](https://user-images.githubusercontent.com/53634176/118542140-39ddf600-b770-11eb-9376-f3d36569d2bb.gif)) -->
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -20,3 +23,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+
+
