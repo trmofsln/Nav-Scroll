@@ -1,22 +1,19 @@
-import React, {useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 
 function App() {
-
   const [navbar, setNavbar] = useState(false);
-  
+
   const changeNavColor = () => {
-    if(window.scrollY >= 80 * (window.innerHeight/100)){
+    if (window.scrollY >= 80 * (window.innerHeight / 100)) {
       setNavbar(true);
-    }
-    else{
+    } else {
       setNavbar(false);
     }
-  }
+  };
 
-  window.addEventListener('scroll', changeNavColor);
+  window.addEventListener("scroll", changeNavColor);
 
-  
   return (
     <div className="App">
       <div className={navbar ? "header sticky" : "header"}>
@@ -39,7 +36,26 @@ function App() {
           </li>
         </ul>
       </div>
-      <div className="banner"></div>
+      <div className="banner">
+        
+      </div>
+      <div class="wrapper">
+          <div class="static-txt">I'm </div>
+          <ul class="dynamic-txts">
+            <li>
+              <span>Tirupati Raman Mishra</span>
+            </li>
+            <li>
+              <span>a Frontend Developer</span>
+            </li>
+            <li>
+              <span>a Moon Lover</span>
+            </li>
+            <li>
+              <span>also Down to Earth</span>
+            </li>
+          </ul>
+        </div>
     </div>
   );
 }
