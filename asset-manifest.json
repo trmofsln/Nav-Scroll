@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/Nav-Scroll/static/css/main.a303b000.chunk.css",
-    "main.js": "/Nav-Scroll/static/js/main.d4b58b3a.chunk.js",
-    "main.js.map": "/Nav-Scroll/static/js/main.d4b58b3a.chunk.js.map",
-    "runtime-main.js": "/Nav-Scroll/static/js/runtime-main.7e69cf1d.js",
-    "runtime-main.js.map": "/Nav-Scroll/static/js/runtime-main.7e69cf1d.js.map",
-    "static/js/2.bdd774bb.chunk.js": "/Nav-Scroll/static/js/2.bdd774bb.chunk.js",
-    "static/js/2.bdd774bb.chunk.js.map": "/Nav-Scroll/static/js/2.bdd774bb.chunk.js.map",
-    "static/js/3.f6e0aa0f.chunk.js": "/Nav-Scroll/static/js/3.f6e0aa0f.chunk.js",
-    "static/js/3.f6e0aa0f.chunk.js.map": "/Nav-Scroll/static/js/3.f6e0aa0f.chunk.js.map",
+    "main.css": "/Nav-Scroll/static/css/main.608e9c3c.chunk.css",
+    "main.js": "/Nav-Scroll/static/js/main.0fed2a15.chunk.js",
+    "main.js.map": "/Nav-Scroll/static/js/main.0fed2a15.chunk.js.map",
+    "runtime-main.js": "/Nav-Scroll/static/js/runtime-main.a982558f.js",
+    "runtime-main.js.map": "/Nav-Scroll/static/js/runtime-main.a982558f.js.map",
+    "static/js/2.df5f0c95.chunk.js": "/Nav-Scroll/static/js/2.df5f0c95.chunk.js",
+    "static/js/2.df5f0c95.chunk.js.map": "/Nav-Scroll/static/js/2.df5f0c95.chunk.js.map",
+    "static/js/3.933e5b09.chunk.js": "/Nav-Scroll/static/js/3.933e5b09.chunk.js",
+    "static/js/3.933e5b09.chunk.js.map": "/Nav-Scroll/static/js/3.933e5b09.chunk.js.map",
     "index.html": "/Nav-Scroll/index.html",
-    "static/css/main.a303b000.chunk.css.map": "/Nav-Scroll/static/css/main.a303b000.chunk.css.map",
-    "static/js/2.bdd774bb.chunk.js.LICENSE.txt": "/Nav-Scroll/static/js/2.bdd774bb.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/Nav-Scroll/static/media/favicon.28d386ec.png"
+    "static/css/main.608e9c3c.chunk.css.map": "/Nav-Scroll/static/css/main.608e9c3c.chunk.css.map",
+    "static/js/2.df5f0c95.chunk.js.LICENSE.txt": "/Nav-Scroll/static/js/2.df5f0c95.chunk.js.LICENSE.txt",
+    "static/media/HomePage.css": "/Nav-Scroll/static/media/back4.b12396ae.jpg",
+    "static/media/Team.css": "/Nav-Scroll/static/media/comp3.f24b04ca.jpg",
+    "static/media/About.css": "/Nav-Scroll/static/media/comp4.12abe0bd.jpg",
+    "static/media/Portfolio.css": "/Nav-Scroll/static/media/comp5.58ad3ffa.jpg",
+    "static/media/Services.css": "/Nav-Scroll/static/media/comp7.2193bc03.jpg",
+    "static/media/favicon.28d386ec.png": "/Nav-Scroll/static/media/favicon.28d386ec.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7e69cf1d.js",
-    "static/js/2.bdd774bb.chunk.js",
-    "static/css/main.a303b000.chunk.css",
-    "static/js/main.d4b58b3a.chunk.js"
+    "static/js/runtime-main.a982558f.js",
+    "static/js/2.df5f0c95.chunk.js",
+    "static/css/main.608e9c3c.chunk.css",
+    "static/js/main.0fed2a15.chunk.js"
   ]
 }
