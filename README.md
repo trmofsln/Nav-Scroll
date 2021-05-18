@@ -1,8 +1,13 @@
 # Nav-Scroll
 Trying and testing sticky Navbars which changes design while scrolling on landing page
 
+ # Open it in a Web. This Project is deployed in github.
+ ### 🔗Nav-Scroll:  https://trmofsln.github.io/Nav-Scroll/#/
+
  [comment]: <> (### Take a Look: 😅)
  <!-- (![pro record](https://user-images.githubusercontent.com/53634176/118542140-39ddf600-b770-11eb-9376-f3d36569d2bb.gif)) -->
+ # How this Sticky NavBar is looking? Give it a Look-
+ ![pro record](https://user-images.githubusercontent.com/53634176/118542140-39ddf600-b770-11eb-9376-f3d36569d2bb.gif)
 
 # Getting Started with Create React App
 
