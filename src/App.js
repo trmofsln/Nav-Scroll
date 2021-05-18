@@ -1,6 +1,18 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import image from "./favicon.png";
+import {
+  BrowserRouter,
+  HashRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import AboutPage from "./Pages/About";
+import HomePage from "./Pages/HomePage";
+import Portfolio from "./Pages/Portfolio";
+import Services from "./Pages/Services";
+import TeamPage from "./Pages/Team";
+import Navbar from "./Navbar";
+import Navbar2 from "./Navbar2";
 
 function App() {
   const [navbar, setNavbar] = useState(false);
@@ -15,50 +27,27 @@ function App() {
 
   window.addEventListener("scroll", changeNavColor);
 
+  let routes;
+  routes = (
+    <Switch>
+      <Route path="/" exact component={HomePage} />
+      <Route path="/about" exact component={AboutPage} />
+      <Route path="/services" exact component={Services} />
+      <Route path="/portfolio" exact component={Portfolio} />
+      <Route path="/team" exact component={TeamPage} />
+    </Switch>
+  );
+
   return (
-    <div className="App">
-      <div className={navbar ? "header sticky" : "header"}>
-        <a className="logo">
-        ⠀
-          {/* <img className="image" src={image} /> */}
-        </a>
-        <ul>
-          <li>
-            <a>Home</a>
-          </li>
-          <li>
-            <a>About</a>
-          </li>
-          <li>
-            <a>Services</a>
-          </li>
-          <li>
-            <a>Portfolio</a>
-          </li>
-          <li>
-            <a>Team</a>
-          </li>
-        </ul>
+    <Router>
+      <div className="navbar-change">
+      {/* {navbar ? <Navbar2 className="navbar-change"/> : <Navbar className="navbar-change"/>} */}
       </div>
-      <div className="banner"></div>
-      <div class="wrapper">
-        <div class="static-txt">I'm </div>
-        <ul class="dynamic-txts">
-          <li>
-            <span>Tirupati Raman Mishra</span>
-          </li>
-          <li>
-            <span>a Frontend Developer</span>
-          </li>
-          <li>
-            <span>a Moon Lover</span>
-          </li>
-          <li>
-            <span>also Down to Earth</span>
-          </li>
-        </ul>
+      <Navbar />
+      <div className="App">
+        <main>{routes}</main>
       </div>
-    </div>
+    </Router>
   );
 }
 

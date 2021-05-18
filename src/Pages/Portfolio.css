@@ -1,0 +1,55 @@
+.port{
+    text-align: center;
+  background: white;
+  min-height: 1000vh;
+}
+
+
+.banner4  {
+    position: relative;
+    width: 100%;
+    height: 130vh;
+    /* background: url("../back3.jpg"); */
+    background: url('../comp5.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* clip-path: circle(250vh at 35% -150vh); */
+  }
+  
+  
+  .bottom-box{
+      position: absolute;
+      /* color: white; */
+      /* border: 5px solid red; */
+      width: 100%;
+      height:50rem;
+      bottom: -1px;
+      transform: rotate(180deg);
+      left:0;
+      line-height: 0;
+      overflow: hidden;
+      box-sizing: inherit;
+
+  }
+
+
+  .bottom-design{
+      display: block;
+      left:50%;
+      position:relative;
+      transform: translateX(-50%);
+      width: calc (100% + 1.3px);
+      /* overflow: hidden; */
+  }
+
+  .curve-design{
+      fill: #fff;
+      transform: rotateY(180deg);
+      transform-origin: center center 0;
+  }
