@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
+import image from "./favicon.png";
 
 function App() {
   const [navbar, setNavbar] = useState(false);
@@ -17,7 +18,10 @@ function App() {
   return (
     <div className="App">
       <div className={navbar ? "header sticky" : "header"}>
-        <a className="logo">Logo</a>
+        <a className="logo">
+        ⠀
+          {/* <img className="image" src={image} /> */}
+        </a>
         <ul>
           <li>
             <a>Home</a>
@@ -36,26 +40,24 @@ function App() {
           </li>
         </ul>
       </div>
-      <div className="banner">
-        
-      </div>
+      <div className="banner"></div>
       <div class="wrapper">
-          <div class="static-txt">I'm </div>
-          <ul class="dynamic-txts">
-            <li>
-              <span>Tirupati Raman Mishra</span>
-            </li>
-            <li>
-              <span>a Frontend Developer</span>
-            </li>
-            <li>
-              <span>a Moon Lover</span>
-            </li>
-            <li>
-              <span>also Down to Earth</span>
-            </li>
-          </ul>
-        </div>
+        <div class="static-txt">I'm </div>
+        <ul class="dynamic-txts">
+          <li>
+            <span>Tirupati Raman Mishra</span>
+          </li>
+          <li>
+            <span>a Frontend Developer</span>
+          </li>
+          <li>
+            <span>a Moon Lover</span>
+          </li>
+          <li>
+            <span>also Down to Earth</span>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
